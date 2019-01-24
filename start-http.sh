@@ -1,1 +1,1 @@
-http-server ./public -a localhost -p 9003
+http-server ./public -p 9003
