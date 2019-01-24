@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "postinstall": "npm run build",
-    "start": "start-http.sh"
+    "start": "./start-http.sh"
   },
   "author": "",
   "license": "ISC",
