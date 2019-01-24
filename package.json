@@ -4,7 +4,10 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "postinstall": "npm run build",
+    "start": "start-http.sh"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +19,7 @@
     "babel-loader": "^8.0.5",
     "babel-preset-es2015": "^6.24.1",
     "deep-freeze": "0.0.1",
+    "http-server": "^0.11.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-react": "^1.1.3",
